@@ -47,6 +47,7 @@ gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping = class Text_AutoTypin
     };
   }
   updateFromNetworkSyncData(networkSyncData) {
+    super.updateFromNetworkSyncData(networkSyncData);
     
     if (networkSyncData.props.Interval !== undefined)
       this._behaviorData.Interval = networkSyncData.props.Interval;
@@ -207,6 +208,9 @@ gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.onCreatedCon
 gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.onCreatedContext.GDObjectObjects2.length = 0;
 
 gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.onCreatedContext.eventsList1(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.onCreatedContext.GDObjectObjects1.length = 0;
+gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.onCreatedContext.GDObjectObjects2.length = 0;
+
 
 return;
 }
@@ -440,6 +444,10 @@ gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.doStepPostEv
 gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.doStepPostEventsContext.GDObjectObjects3.length = 0;
 
 gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.doStepPostEventsContext.eventsList4(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.doStepPostEventsContext.GDObjectObjects1.length = 0;
+gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.doStepPostEventsContext.GDObjectObjects2.length = 0;
+gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.doStepPostEventsContext.GDObjectObjects3.length = 0;
+
 
 return;
 }
@@ -538,6 +546,9 @@ gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.TypingFinish
 gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.TypingFinishedContext.GDObjectObjects2.length = 0;
 
 gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.TypingFinishedContext.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.TypingFinishedContext.GDObjectObjects1.length = 0;
+gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.TypingFinishedContext.GDObjectObjects2.length = 0;
+
 
 return !!eventsFunctionContext.returnValue;
 }
@@ -636,6 +647,9 @@ gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.TypingPauseC
 gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.TypingPauseContext.GDObjectObjects2.length = 0;
 
 gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.TypingPauseContext.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.TypingPauseContext.GDObjectObjects1.length = 0;
+gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.TypingPauseContext.GDObjectObjects2.length = 0;
+
 
 return !!eventsFunctionContext.returnValue;
 }
@@ -734,6 +748,9 @@ gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.IsCharacterJ
 gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.IsCharacterJustAddedContext.GDObjectObjects2.length = 0;
 
 gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.IsCharacterJustAddedContext.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.IsCharacterJustAddedContext.GDObjectObjects1.length = 0;
+gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.IsCharacterJustAddedContext.GDObjectObjects2.length = 0;
+
 
 return !!eventsFunctionContext.returnValue;
 }
@@ -826,6 +843,9 @@ gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.PauseContext
 gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.PauseContext.GDObjectObjects2.length = 0;
 
 gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.PauseContext.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.PauseContext.GDObjectObjects1.length = 0;
+gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.PauseContext.GDObjectObjects2.length = 0;
+
 
 return;
 }
@@ -918,6 +938,9 @@ gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.ResumeContex
 gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.ResumeContext.GDObjectObjects2.length = 0;
 
 gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.ResumeContext.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.ResumeContext.GDObjectObjects1.length = 0;
+gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.ResumeContext.GDObjectObjects2.length = 0;
+
 
 return;
 }
@@ -1010,6 +1033,9 @@ gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.SkipToEndCon
 gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.SkipToEndContext.GDObjectObjects2.length = 0;
 
 gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.SkipToEndContext.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.SkipToEndContext.GDObjectObjects1.length = 0;
+gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.SkipToEndContext.GDObjectObjects2.length = 0;
+
 
 return;
 }
@@ -1103,6 +1129,9 @@ gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.JumpToPositi
 gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.JumpToPositionContext.GDObjectObjects2.length = 0;
 
 gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.JumpToPositionContext.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.JumpToPositionContext.GDObjectObjects1.length = 0;
+gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.JumpToPositionContext.GDObjectObjects2.length = 0;
+
 
 return;
 }
@@ -1210,6 +1239,9 @@ gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.StartAtBegin
 gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.StartAtBeginningContext.GDObjectObjects2.length = 0;
 
 gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.StartAtBeginningContext.eventsList1(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.StartAtBeginningContext.GDObjectObjects1.length = 0;
+gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.StartAtBeginningContext.GDObjectObjects2.length = 0;
+
 
 return;
 }
@@ -1225,7 +1257,7 @@ gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.ChangeInterv
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(17463596);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(8632836);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.ChangeIntervalContext.GDObjectObjects1);
@@ -1306,6 +1338,9 @@ gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.ChangeInterv
 gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.ChangeIntervalContext.GDObjectObjects2.length = 0;
 
 gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.ChangeIntervalContext.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.ChangeIntervalContext.GDObjectObjects1.length = 0;
+gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.ChangeIntervalContext.GDObjectObjects2.length = 0;
+
 
 return;
 }
@@ -1395,6 +1430,9 @@ gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.CurrentChara
 gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.CurrentCharacterContext.GDObjectObjects2.length = 0;
 
 gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.CurrentCharacterContext.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.CurrentCharacterContext.GDObjectObjects1.length = 0;
+gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.CurrentCharacterContext.GDObjectObjects2.length = 0;
+
 
 return "" + eventsFunctionContext.returnValue;
 }
@@ -1484,6 +1522,9 @@ gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.CurrentChara
 gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.CurrentCharacterIndexContext.GDObjectObjects2.length = 0;
 
 gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.CurrentCharacterIndexContext.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.CurrentCharacterIndexContext.GDObjectObjects1.length = 0;
+gdjs.evtsExt__AutoTyping__Text_AutoTyping.Text_AutoTyping.prototype.CurrentCharacterIndexContext.GDObjectObjects2.length = 0;
+
 
 return Number(eventsFunctionContext.returnValue) || 0;
 }
