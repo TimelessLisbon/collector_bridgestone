@@ -24,7 +24,7 @@ gdjs.CoordenadasCode.GDgmapsObjects1= [];
 gdjs.CoordenadasCode.GDgmapsObjects2= [];
 
 
-gdjs.CoordenadasCode.userFunc0xa8dda0 = function GDJSInlineCode(runtimeScene) {
+gdjs.CoordenadasCode.userFunc0xf51950 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var myVar = runtimeScene.getVariables().get("Longitude");
 function geoFindMe() {
@@ -48,7 +48,7 @@ function geoFindMe() {
 }
 geoFindMe();
 };
-gdjs.CoordenadasCode.userFunc0xa8d1f8 = function GDJSInlineCode(runtimeScene) {
+gdjs.CoordenadasCode.userFunc0xf4eda8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var myVar = runtimeScene.getVariables().get("Latitude");
 function geoFindMe() {
@@ -102,7 +102,7 @@ gdjs.copyArray(runtimeScene.getObjects("longitude"), gdjs.CoordenadasCode.GDlong
 {
 
 
-gdjs.CoordenadasCode.userFunc0xa8dda0(runtimeScene);
+gdjs.CoordenadasCode.userFunc0xf51950(runtimeScene);
 
 }
 
@@ -110,7 +110,7 @@ gdjs.CoordenadasCode.userFunc0xa8dda0(runtimeScene);
 {
 
 
-gdjs.CoordenadasCode.userFunc0xa8d1f8(runtimeScene);
+gdjs.CoordenadasCode.userFunc0xf4eda8(runtimeScene);
 
 }
 
