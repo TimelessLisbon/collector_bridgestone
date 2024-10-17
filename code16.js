@@ -211,7 +211,7 @@ gdjs.copyArray(runtimeScene.getObjects("percurso"), gdjs.Percurso_32CarmoCode.GD
 }
 
 
-};gdjs.Percurso_32CarmoCode.userFunc0xa0a2e8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Percurso_32CarmoCode.userFunc0xd33438 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var myVar = runtimeScene.getVariables().get("Longitude");
 function geoFindMe() {
@@ -235,7 +235,7 @@ function geoFindMe() {
 }
 geoFindMe();
 };
-gdjs.Percurso_32CarmoCode.userFunc0xa0a358 = function GDJSInlineCode(runtimeScene) {
+gdjs.Percurso_32CarmoCode.userFunc0xd31d80 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 var myVar = runtimeScene.getVariables().get("Latitude");
 function geoFindMe() {
@@ -755,7 +755,7 @@ gdjs.copyArray(runtimeScene.getObjects("yes"), gdjs.Percurso_32CarmoCode.GDyesOb
 {
 
 
-gdjs.Percurso_32CarmoCode.userFunc0xa0a2e8(runtimeScene);
+gdjs.Percurso_32CarmoCode.userFunc0xd33438(runtimeScene);
 
 }
 
@@ -763,7 +763,7 @@ gdjs.Percurso_32CarmoCode.userFunc0xa0a2e8(runtimeScene);
 {
 
 
-gdjs.Percurso_32CarmoCode.userFunc0xa0a358(runtimeScene);
+gdjs.Percurso_32CarmoCode.userFunc0xd31d80(runtimeScene);
 
 }
 
