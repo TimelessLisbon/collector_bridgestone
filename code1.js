@@ -63,7 +63,7 @@ gdjs.LanguageCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17099404);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14451700);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "correct-2-46134.mp3", false, 0, 1);
@@ -81,7 +81,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17102884);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14455220);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -97,7 +97,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17105124);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14457564);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -113,7 +113,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17107260);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14459940);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -129,7 +129,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17107476);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14462396);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -145,7 +145,8 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(7)) == 0;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(8).getAsNumber() == 0);
+}
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("no"), gdjs.LanguageCode.GDnoObjects2);
 gdjs.copyArray(gdjs.LanguageCode.GDyesObjects1, gdjs.LanguageCode.GDyesObjects2);
@@ -172,7 +173,8 @@ gdjs.copyArray(gdjs.LanguageCode.GDyesObjects1, gdjs.LanguageCode.GDyesObjects2)
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(7)) == 1;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(8).getAsNumber() == 1);
+}
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("no"), gdjs.LanguageCode.GDnoObjects2);
 gdjs.copyArray(gdjs.LanguageCode.GDyesObjects1, gdjs.LanguageCode.GDyesObjects2);
@@ -199,7 +201,8 @@ gdjs.copyArray(gdjs.LanguageCode.GDyesObjects1, gdjs.LanguageCode.GDyesObjects2)
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(7)) == 2;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(8).getAsNumber() == 2);
+}
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("no"), gdjs.LanguageCode.GDnoObjects2);
 gdjs.copyArray(gdjs.LanguageCode.GDyesObjects1, gdjs.LanguageCode.GDyesObjects2);
@@ -226,7 +229,8 @@ gdjs.copyArray(gdjs.LanguageCode.GDyesObjects1, gdjs.LanguageCode.GDyesObjects2)
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(7)) == 3;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(8).getAsNumber() == 3);
+}
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("no"), gdjs.LanguageCode.GDnoObjects2);
 gdjs.copyArray(gdjs.LanguageCode.GDyesObjects1, gdjs.LanguageCode.GDyesObjects2);
@@ -253,7 +257,7 @@ gdjs.copyArray(gdjs.LanguageCode.GDyesObjects1, gdjs.LanguageCode.GDyesObjects2)
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17073228);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14472012);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "notification-140376.mp3", false, 100, 1);
@@ -269,7 +273,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17092116);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14474228);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "correct-2-46134.mp3", false, 100, 1);
@@ -285,7 +289,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(17092316);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14476276);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "click-21156.mp3", false, 100, 1);
@@ -358,7 +362,7 @@ for (var i = 0, k = 0, l = gdjs.LanguageCode.GDportuguesObjects1.length;i<l;++i)
 gdjs.LanguageCode.GDportuguesObjects1.length = k;
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(7).setNumber(0);
+{runtimeScene.getGame().getVariables().getFromIndex(8).setNumber(0);
 }{gdjs.evtTools.runtimeScene.unpauseTimer(runtimeScene, "nextscene");
 }
 { //Subevents
@@ -395,7 +399,7 @@ for (var i = 0, k = 0, l = gdjs.LanguageCode.GDinglesObjects1.length;i<l;++i) {
 gdjs.LanguageCode.GDinglesObjects1.length = k;
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(7).setNumber(1);
+{runtimeScene.getGame().getVariables().getFromIndex(8).setNumber(1);
 }{gdjs.evtTools.runtimeScene.unpauseTimer(runtimeScene, "nextscene");
 }
 { //Subevents
@@ -432,7 +436,7 @@ for (var i = 0, k = 0, l = gdjs.LanguageCode.GDfrancesObjects1.length;i<l;++i) {
 gdjs.LanguageCode.GDfrancesObjects1.length = k;
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(7).setNumber(2);
+{runtimeScene.getGame().getVariables().getFromIndex(8).setNumber(2);
 }{gdjs.evtTools.runtimeScene.unpauseTimer(runtimeScene, "nextscene");
 }
 { //Subevents
@@ -469,7 +473,7 @@ for (var i = 0, k = 0, l = gdjs.LanguageCode.GDespanholObjects1.length;i<l;++i) 
 gdjs.LanguageCode.GDespanholObjects1.length = k;
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(7).setNumber(3);
+{runtimeScene.getGame().getVariables().getFromIndex(8).setNumber(3);
 }{gdjs.evtTools.runtimeScene.unpauseTimer(runtimeScene, "nextscene");
 }
 { //Subevents
@@ -512,7 +516,7 @@ if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("confirmacao"), gdjs.LanguageCode.GDconfirmacaoObjects1);
 {gdjs.evtTools.runtimeScene.pauseTimer(runtimeScene, "nextscene");
 }{for(var i = 0, len = gdjs.LanguageCode.GDconfirmacaoObjects1.length ;i < len;++i) {
-    gdjs.LanguageCode.GDconfirmacaoObjects1[i].getBehavior("Animation").setAnimationIndex(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(7)));
+    gdjs.LanguageCode.GDconfirmacaoObjects1[i].getBehavior("Animation").setAnimationIndex(runtimeScene.getGame().getVariables().getFromIndex(8).getAsNumber());
 }
 }{for(var i = 0, len = gdjs.LanguageCode.GDconfirmacaoObjects1.length ;i < len;++i) {
     gdjs.LanguageCode.GDconfirmacaoObjects1[i].hide(false);
